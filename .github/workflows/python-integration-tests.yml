@@ -5,13 +5,13 @@
 name: Python Integration Tests
 
 on:
-  workflow_dispatch:
+  #workflow_dispatch:
   pull_request:
     branches: ["main"]
-  merge_group:
-    branches: ["main"]
-  schedule:
-    - cron: "0 0 * * *" # Run at midnight UTC daily
+  #merge_group:
+  #  branches: ["main"]
+  #schedule:
+  #  - cron: "0 0 * * *" # Run at midnight UTC daily
 
 permissions:
   contents: read
